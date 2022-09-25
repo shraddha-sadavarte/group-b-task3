@@ -1,0 +1,126 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.two{
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+    padding: 10px;
+}
+.learn{
+    color: blue;
+}
+.learn:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+.three{
+    background-color: black;
+    height: 450px; 
+    width: 450px;
+    margin: 50px;
+    position: relative;
+}
+.child{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 30%;
+}
+.images{
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    background-color: skyblue;
+    border-radius: 20px;
+    border: 2px solid lightblue;
+    height: 30px;
+    width: 90px;
+}
+.btn:hover{
+    background-color: blue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.present{
+    background-color: white;
+    height: 30px;
+    width: 90px;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+}
+.present:hover{
+    background-color: grey;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.check{
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 40px;
+}
+.check:hover{
+    background-color: grey;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.block{
+    display: flex;
+    background-color: black;
+    padding-top:60px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+.main1{
+    display: flex;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+.meet{
+    margin-left: 80px;
+    border-radius: 20px;
+    background-color: white;
+    padding:20px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+}
+.shraddha{
+    text-align: center;
+    background-color: grey;
+    margin: 10px;
+    padding:20 10 0 10;
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+    background-color: #99ccff;
+    position: relative;
+}
+.name{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+.act{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
